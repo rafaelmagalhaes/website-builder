@@ -3,11 +3,28 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
+    "grapesjs": "^0.19.5",
+    "grapesjs-blocks-basic": "^1.0.1",
+    "grapesjs-plugin-forms": "^2.0.5",
+    "grapesjs-preset-newsletter": "^1.0.1",
+    "grapesjs-preset-webpage": "^1.0.2",
+    "grapesjs-react": "^4.0.1",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^13.2.1",
+    "@types/node": "18.14.2",
+    "@types/react": "18.0.28",
+    "eslint": "8.35.0",
+    "eslint-config-next": "13.2.1",
+    "eslint-config-prettier": "^8.6.0",
+    "prettier": "^2.8.4",
+    "typescript": "4.9.5"
   }
 }
